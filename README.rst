@@ -1,20 +1,9 @@
-Title
+Fiscal epos print delay
 =======
 
 Description
 ==============
-
-Configuration
-=============
-
-Usage
-=====
-Description usage
-
-
-Dependencies
-===============
-
+Modulo per ovviare al problema di fiscal_epos_print che non passa i dati della cassa perchè ci mette più di 2 secondi
 
 Credits
 =======

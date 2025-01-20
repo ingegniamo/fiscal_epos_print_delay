@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "Fiscal epos print delay",
     
     'summary': "",
   
@@ -10,15 +10,21 @@
 
     'category': '',
   
-    'version': '18.0.0.1',
+    'version': '16.0.0.1',
   
-    'website'METTERE LINK GITHUB completo: "https://github.com/ingegniamo",
+    'website': "https://github.com/ingegniamo/fiscal_epos_print_delay",
 
     # any module necessary for this one to work correctly
-    'depends': [],
+    'depends': ['fiscal_epos_print'],
     
     # always loaded
     'data': [],
+
+     "assets": {
+        "point_of_sale.assets": [
+            "fiscal_epos_print_delay/static/src/js/Screens/PaymentScreen/PaymentScreen.js",
+        ],
+        },
 
     'application': False,
 }
